@@ -12,5 +12,5 @@
 
 
 ### Markdown Version
-[Bookmarks]('bookmarks.md')
+[Bookmarks](bookmarks.md)
 * Note : This file is a little messy and most of my bookmarks are duplicated but hosted version is better and has fuzzy search functionality
