@@ -1,264 +1,572 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Personal Bookmarks</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet"> 
-<style type="text/css">
-	li {
-		font-family: 'Titillium Web', sans-serif;
-	}
-</style>
+    <meta charset="UTF-8">
+    <title>Personal Bookmarks</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <style type="text/css">        li {
+        font-family: 'Titillium Web', sans-serif;
+    }    </style>
 </head>
 <body>
 <div class="container" style="padding: 20px;">
-	<div class="jumbotron jumbotron-fluid">
-	  <div class="container">
-	    <h1 class="display-4" style="">Useful Bookmarks</h1>
-	    <p class="lead">This repo is dedicated to list of useful bookmarks that I bookmarked when discovering something new or while learning programming</p>
-	  </div>
-	</div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container"><h1 class="display-4" style="">Useful Bookmarks</h1>
+            <p class="lead">This repo is dedicated to list of useful bookmarks that I bookmarked when discovering something new or while
+                learning programming</p></div>
+    </div>
 </div>
 <div class="container">
-<div id="bookmarks">
-<div class="container">
-	<input class="search" placeholder="Search" />
-<button class="sort" data-sort="name">
-  Sort by name
-</button>
-</div>
-<div class="container" style="padding: 20px;">
-<ul class="list list-group">
-<li class="list-group-item"><h3 class="name"><a href="https://www.learnopencv.com/">Learn OpenCV ( C++ / Python )</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.fullstackreact.com/react-native/">Fullstack React Native Book - The Complete Guide to React Native</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://github.com/MichielDerhaeg/build-linux/blob/master/README.md">build-linux/README.md at master · MichielDerhaeg/build-linux</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://blog.xojo.com/2017/12/06/compilers-101-overview-and-lexer/">Compilers 101 – Overview and Lexer – Xojo Blog</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.seas.upenn.edu/~cis515/linalg.pdf">linalg.pdf</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.le.ac.uk/users/rjm1/cotter/index.htm">Introduction to C Programming - Table of Contents</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://awesome-python.com/">Awesome Python</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;">Git Cheatsheet</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.wikipython.com/">wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://watchandcode.com/">Watch and Code®</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.reaktor.com/blog/how-to-turn-your-side-project-into-an-open-source-project/?utm_source=DigitalOcean_Newsletter">How to turn your side project into an open source project - Reaktor</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.digitalocean.com/community/tutorials/how-to-build-android-roms-on-ubuntu-16-04?utm_medium=email&amp;utm_source=IaaN&amp;utm_campaign=01182018">How to Build Android ROMs on Ubuntu 16.04 | DigitalOcean</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://solarianprogrammer.com/">Solarian Programmer | My programming ramblings</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://null-byte.wonderhowto.com/how-to/c-c-programming-for-hackers-part-1-introduction-0162213/">C/C++ Programming for Hackers: Part 1 (Introduction) « Null Byte :: WonderHowTo</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://projects.raspberrypi.org/en/projects/temperature-log">Temperature log - Introduction | Raspberry Pi Projects</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://egghead.io/">Short, instructional screencast video tutorials for web developers on @eggheadio</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.lib4dev.com/topics/python?p=3&amp;s=stars">lib4dev</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://jeffkreeftmeijer.com/git-flow/">Using git-flow to automate your git branching workflow</h3></a> </li>
+    <div id="bookmarks">
+        <div class="container"><input class="search" placeholder="Search"/>
+            <button class="sort" data-sort="name"> Sort by name</button>
+        </div>
+        <div class="container" style="padding: 20px;">
+            <ul class="list list-group">
+                <li class="list-group-item">
+                    <a href="https://www.learnopencv.com/">Learn OpenCV ( C++ / Python )</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.fullstackreact.com/react-native/">Fullstack React Native Book - The
+                        Complete Guide to ReactNative</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/MichielDerhaeg/build-linux/blob/master/README.md">build-linux/README.md
+                        at master ·MichielDerhaeg/build-linux</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://blog.xojo.com/2017/12/06/compilers-101-overview-and-lexer/">Compilers 101 –
+                        Overview and Lexer – Xojo Blog</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.seas.upenn.edu/~cis515/linalg.pdf">linalg.pdf</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.le.ac.uk/users/rjm1/cotter/index.htm">Introduction to C Programming - Table
+                        of Contents</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://awesome-python.com/">Awesome Python</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;">Git Cheatsheet</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.wikipython.com/">wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and
+                        tkinter</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://watchandcode.com/">Watch and Code®</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.reaktor.com/blog/how-to-turn-your-side-project-into-an-open-source-project/?utm_source=DigitalOcean_Newsletter">How
+                        to turn your side project into an open source project - Reaktor</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.digitalocean.com/community/tutorials/how-to-build-android-roms-on-ubuntu-16-04?utm_medium=email&amp;utm_source=IaaN&amp;utm_campaign=01182018">How
+                        to Build Android ROMs on Ubuntu 16.04 | DigitalOcean</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://solarianprogrammer.com/">Solarian Programmer | My programming ramblings</a>
 
-<li class="list-group-item"><h3 class="name"><a href="https://web.stanford.edu/class/cs103x/cs103x-notes.pdf">cs103x-notes.pdf</h3></a> 
-	<li class="list-group-item"><h3 class="name"><a href="https://michael.stapelberg.de/posts/">Artikel</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://interactivepython.org/runestone/static/pythonds/index.html">Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://devarea.com/deploying-a-new-python-package-to-pypi/">Deploying a New Python Package to Pypi – Developers Area</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://rizonrice.github.io/resources">#rice - list o&#39; resources</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://lexfridman.com/">Lex Fridman | MIT</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://scrimba.com/g/glearnreact">Learn React for free | Scrimba.com</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://medium.com/@rahulvaish/textblob-and-sentiment-analysis-python-a687e9fabe96">TextBlob and Sentiment Analysis — Python – Rahul Vaish – Medium</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://devhints.io/">Devhints — TL;DR for developer documentation</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://vim.wikia.com/wiki/Best_Vim_Tips">Best Vim Tips | Vim Tips Wiki | FANDOM powered by Wikia</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://justinmeiners.github.io/lc3-vm/">Write your Own Virtual Machine</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561">Ten simple rules for documenting scientific software</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.doc.ic.ac.uk/~susan/475/HowToBeAProgrammer.pdf">HowToBeAProgrammer.pdf</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix | Sijin Joseph</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a">Want to build something fun? Here’s a list of sample web app ideas.</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://1scyem2bunjw1ghzsf1cjwwn-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/thinking-forth-color.pdf">thinking-forth-color.pdf</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://hackr.io/">Find the best online programming courses &amp; tutorials - Hackr.io</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.analog.com/en/education/education-library/scientist_engineers_guide.html">The Scientist &amp; Engineer&#39;s Guide to Digital Signal Processing, 1999 | Education | Analog Devices</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://news.ycombinator.com/item?id=2414280">Must Read CS Books For Self Self-Taught Programmers | Hacker News</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://fffaraz.github.io/awesome-cpp/">Awesome C/C++</h3></a> 
-<h3 class="name"><a href="https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df">Building Beautiful Command Line Interfaces with Python</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server">How To Setup a Firewall with UFW on an Ubuntu and Debian Cloud Server | DigitalOcean</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04">How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04 | DigitalOcean</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://lagunita.stanford.edu/dashboard">Dashboard | Stanford Lagunita</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://aosabook.org/en/">The Architecture of Open Source Applications</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://blog.jessfraz.com/post/books/">Jessie Frazelle&#39;s Blog: Books I Recommend</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://aws.amazon.com/training/learning-paths/machine-learning/data-scientist/">Machine Learning - Data Scientist Path</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.manning.com/catalog#section-68">Manning | Catalog</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.explainshell.com/">explainshell.com - match command-line arguments to their help text</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://natuive.net/#home">natUIve</h3></a></li>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://null-byte.wonderhowto.com/how-to/c-c-programming-for-hackers-part-1-introduction-0162213/">C/C++
+                        Programming for Hackers: Part 1 (Introduction) « Null Byte :: WonderHowTo</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://projects.raspberrypi.org/en/projects/temperature-log">Temperature log -
+                        Introduction | Raspberry Pi Projects</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://egghead.io/">Short, instructional screencast video tutorials for web developers
+                        on @eggheadio</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.lib4dev.com/topics/python?p=3&amp;s=stars">lib4dev</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://jeffkreeftmeijer.com/git-flow/">Using git-flow to automate your git branching
+                        workflow</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://web.stanford.edu/class/cs103x/cs103x-notes.pdf">cs103x-notes.pdf </a>
 
+                <li class="list-group-item">
+                    <a href="https://michael.stapelberg.de/posts/">Artikel</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://interactivepython.org/runestone/static/pythonds/index.html">Problem Solving
+                        with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://devarea.com/deploying-a-new-python-package-to-pypi/">Deploying a New Python
+                        Package to Pypi – Developers Area</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://rizonrice.github.io/resources">#rice - list o&#39; resources </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://lexfridman.com/">Lex Fridman | MIT</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://scrimba.com/g/glearnreact">Learn React for free | Scrimba.com </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://medium.com/@rahulvaish/textblob-and-sentiment-analysis-python-a687e9fabe96">TextBlob
+                        and Sentiment Analysis — Python – Rahul Vaish – Medium</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://devhints.io/">Devhints — TL;DR for developer documentation </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://vim.wikia.com/wiki/Best_Vim_Tips">Best Vim Tips | Vim Tips Wiki | FANDOM powered
+                        by Wikia</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://justinmeiners.github.io/lc3-vm/">Write your Own Virtual Machine</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561">Ten
+                        simple rules for documenting scientific software</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.doc.ic.ac.uk/~susan/475/HowToBeAProgrammer.pdf">HowToBeAProgrammer.pdf</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix |
+                        Sijin Joseph</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a">Want
+                        to build something fun? Here’s a list of sample web app ideas.</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://1scyem2bunjw1ghzsf1cjwwn-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/thinking-forth-color.pdf">thinking-forth-color.pdf </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://hackr.io/">Find the best online programming courses &amp; tutorials - Hackr.io</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.analog.com/en/education/education-library/scientist_engineers_guide.html">The
+                        Scientist &amp; Engineer&#39;s Guide to Digital Signal Processing, 1999 | Education | Analog Devices</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://news.ycombinator.com/item?id=2414280">Must Read CS Books For Self Self-Taught
+                        Programmers | Hacker News</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://fffaraz.github.io/awesome-cpp/">Awesome C/C++</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df">Building
+                        Beautiful Command Line Interfaces with Python</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server">How
+                        To Setup a Firewall with UFW on an Ubuntu and Debian Cloud Server | DigitalOcean</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04">How
+                        To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04 | DigitalOcean</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://lagunita.stanford.edu/dashboard">Dashboard | Stanford Lagunita </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://aosabook.org/en/">The Architecture of Open Source Applications </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://blog.jessfraz.com/post/books/">Jessie Frazelle&#39;s Blog: Books I
+                        Recommend</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://aws.amazon.com/training/learning-paths/machine-learning/data-scientist/">Machine
+                        Learning - Data Scientist Path</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.manning.com/catalog#section-68">Manning | Catalog</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.explainshell.com/">explainshell.com - match command-line arguments to their
+                        help text</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://natuive.net/#home">natUIve</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.pyimagesearch.com/">PyImageSearch - Be awesome at OpenCV, Python, deep
+                        learning, and computer vision</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.practicepython.org/">Practice Python</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://neuralnetworksanddeeplearning.com/">Neural networks and deep learning</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://python-graph-gallery.com/">The Python Graph Gallery – Visualizing data – with
+                        Python</a>
 
-<li class="list-group-item"><h3 class="name"><a href="https://www.pyimagesearch.com/">PyImageSearch - Be awesome at OpenCV, Python, deep learning, and computer vision</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.practicepython.org/">Practice Python</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://neuralnetworksanddeeplearning.com/">Neural networks and deep learning</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://python-graph-gallery.com/">The Python Graph Gallery – Visualizing data – with Python</h3></a>
-<li class="list-group-item"><h3 class="name"><a href="http://www.linuxjournal.com/article/3882">Why Python? | Linux Journal</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://insights.dice.com/2016/06/01/why-is-python-so-popular/">Why Is Python So Popular? - Dice Insights</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.circuitbasics.com/raspberry-pi/">Circuit Basics - Raspberry Pi</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.rototron.info/projects/">Projects | Rototron</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://plus.maths.org/content/category/tags/video">video | plus.maths.org</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.rototron.info/projects/pi-temperature-monitor/">Pi Temperature Monitor | Rototron</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://projecteuler.net/">About - Project Euler</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://pimylifeup.com/raspberry-pi-temperature-sensor/">Raspberry Pi Temperature Sensor: Build a DS18B20 Circuit</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.jamesstone.com/python-css-frameworks/">Get Started with Frontend CSS Frameworks using Python and Django</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://software-carpentry.org/join/projects/">Related Projects</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://inventwithpython.com/">inventwithpython.com</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.aishack.in/tutorials/">AI Shack - Tutorials for OpenCV, computer vision, deep learning, image processing, neural networks and artificial intelligence.</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://pythontips.com/2013/09/01/best-python-resources/">Best Python Resources for Beginners and Professionals | Python Tips</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://inventwithpython.com/blog/">The Invent with Python Blog -</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.webforefront.com/django/modeldatatypesandvalidation.html">Django model data types</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.bootupthegeek.com/hacking_tutorials">Boot Up the Geek</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views">Django Tutorial Part 6: Generic list and detail views - Learn web development | MDN</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes">Javascript Char Codes (Key Codes) - Cambia Research</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://uigradients.com/#Titanium">uiGradients - Beautiful colored gradients</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://navnav.co/resources">NavNav - 90+ Responsive Navigation Bar Menu Tutorials, Examples, and Demos (CSS, jQuery, JavaScript)</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://blog.teamtreehouse.com/challenges-solutions-responsive-navigation">Challenges &amp; Solutions for Your Responsive Navigation</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="http://matt.might.net/articles/basic-unix/">A survival guide for Unix beginners</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.davidbaumgold.com/tutorials/command-line/">Getting to Know the Command Line | David Baumgold</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://char.gd/">How to set up the perfect modern dev environment on Windows - Charged</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.taniarascia.com/my-front-end-web-development-setup/#text-editor--ide">My Complete Front End Web Development Setup – Tania Rascia</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.programmableweb.com/">ProgrammableWeb - APIs, Mashups and the Web as Platform</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://github.com/request/request">request/request: 🏊🏾 Simplified HTTP request client.</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/">25 Useful Basic Commands of APT-GET and APT-CACHE for Package Management</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://kb.iu.edu/d/akqg">What is SFTP, and how do I use it to transfer files?</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://danielmiessler.com/">Daniel Miessler :: information security, technology, and humans</h3></a> </li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.py4e.com/">PY4E - Python for Everybody</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.financeandpython.com/BasicFinance/1/3.html">Basic Finance: Introduction | Finance and Python</h3></a>
-</li>
-<li class="list-group-item">
-<h3 class="name"><a href="http://www.topzenith.com/2017/04/top-10-video-tutorials-to-learn-python.html">Top 10 video tutorials to learn Python - Top Zenith</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://docs.python-guide.org/en/latest/">The Hitchhiker&#39;s Guide to Python! — The Hitchhiker&#39;s Guide to Python</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://tech.marksblogg.com/">Tech Blog</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://www.csfieldguide.org.nz/en/chapters/formal-languages.html">Formal Languages - Computer Science Field Guide</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://matt.might.net/articles/what-cs-majors-should-know/">What every computer science major should know</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://pythonista-tools.github.io/Pythonista-Tools/">Pythonista Tools</h3></a>
-</li>
-</li>
+                <li class="list-group-item">
+                    <a href="http://www.linuxjournal.com/article/3882">Why Python? | Linux Journal </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://insights.dice.com/2016/06/01/why-is-python-so-popular/">Why Is Python So
+                        Popular? - Dice Insights</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.circuitbasics.com/raspberry-pi/">Circuit Basics - Raspberry Pi</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.rototron.info/projects/">Projects | Rototron</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://plus.maths.org/content/category/tags/video">video | plus.maths.org</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.rototron.info/projects/pi-temperature-monitor/">Pi Temperature Monitor |
+                        Rototron</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://projecteuler.net/">About - Project Euler</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://pimylifeup.com/raspberry-pi-temperature-sensor/">Raspberry Pi Temperature
+                        Sensor: Build a DS18B20 Circuit</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.jamesstone.com/python-css-frameworks/">Get Started with Frontend CSS
+                        Frameworks using Python and Django</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://software-carpentry.org/join/projects/">Related Projects </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://inventwithpython.com/">inventwithpython.com</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.aishack.in/tutorials/">AI Shack - Tutorials for OpenCV, computer vision,
+                        deep learning, image processing, neural networks and artificial intelligence.</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://pythontips.com/2013/09/01/best-python-resources/">Best Python Resources for
+                        Beginners and Professionals | Python Tips</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://inventwithpython.com/blog/">The Invent with Python Blog - </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.webforefront.com/django/modeldatatypesandvalidation.html">Django model data
+                        types</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.bootupthegeek.com/hacking_tutorials">Boot Up the Geek </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views">Django
+                        Tutorial Part 6: Generic list and detail views - Learn web development | MDN</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes">Javascript
+                        Char Codes (Key Codes) - Cambia Research</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://uigradients.com/#Titanium">uiGradients - Beautiful colored gradients</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://navnav.co/resources">NavNav - 90+ Responsive Navigation Bar Menu Tutorials,
+                        Examples, and Demos (CSS, jQuery, JavaScript)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://blog.teamtreehouse.com/challenges-solutions-responsive-navigation">Challenges
+                        &amp; Solutions for Your Responsive Navigation</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://matt.might.net/articles/basic-unix/">A survival guide for Unix beginners</a>
 
-
-<li class="list-group-item"><h3 class="name"><a href="http://www.cssdesignawards.com/website-gallery?feature=typographic&amp;page=3">Typographic Sites - A Gallery of Typographic Site Designs via CSS Design Awards</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://bradfrost.github.io/this-is-responsive/patterns.html#navigation">Responsive Web Design Patterns | This Is Responsive</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.youtube.com/watch?v=8kK-cA99SA0">CSS Transition (CSS Animations Series Part 1) - YouTube</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://onepagelove.com/gallery/portfolio/page/10">Portfolio One Page Websites - Page 10 of 276</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://codyhouse.co/gem/full-screen-pushing-navigation/">Full-Screen Pushing Navigation in CSS and jQuery | CodyHouse</h3></a>
-</li>
-
-</li>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://pythonprogramming.net/game-development-tutorials/">Python Programming Tutorials</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.saltycrane.com/blog/tag/ssh/">Posts tagged &quot;ssh&quot; - SaltyCrane Blog</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://greenteapress.com/thinkcpp/">How to Think Like a Computer Scientist</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.computerscienceonline.org/courses/">Online CS Courses - Computer Science</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="http://rosettacode.org/wiki/Rosetta_Code">Rosetta Code</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://dev.to/vaidehijoshi/a-deeper-inspection-into-compilation-and-interpretation-8bp">A Deeper Inspection Into Compilation And Interpretation</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://dev.to/damcosset/trying-to-understand-blockchain-by-making-one-ce4">Trying to understand blockchain by making one!</h3></a></li>
-<li class="list-group-item"><h3 class="name"><a href="https://dev.to/chrisvasqm/must-have-extensions-for-vs-code-according-to-me-dho">Must have extensions for VS Code (according to me)</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://github.com/ossu/computer-science/blob/master/README.md">computer-science/README.md at master · ossu/computer-science</h3></a>
-<h3 class="name"><a href="https://mitpress.mit.edu/sicp/full-text/book/book.html">Structure and Interpretation of Computer Programs</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://school.geekwall.in/javascript">Learn Startup, starting a business, Mobile Development and Design with Node.js, Angular.js, React.js, Python, MongoDB, HTML5, CSS3, JavaScript, PHP, mobile app development, Responsive Web Design, Maketing</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.webcodegeeks.com/web-development/webrtc-tutorial-beginners/">WebRTC Tutorial for Beginners | Web Code Geeks - 2017</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://lyr.ai/artificial-intelligence-for-personal-use/">A list of artificial intelligence tools you can use today–– for personal use</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://youmightnotneedjquery.com/">You Might Not Need jQuery</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://careercup.com/page">Interview Questions | CareerCup</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://rejected.us/">We All Face Rejection.</h3></a>
-</li>
-
-<li class="list-group-item"><h3 class="name"><a href="http://www-bcf.usc.edu/~gareth/ISL/">Introduction to Statistical Learning</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://work.caltech.edu/library/014.html">Learning Paradigms - Types of Learning (Abu-Mostafa)</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://arxiv.org/pdf/1309.0238v1.pdf">1309.0238v1.pdf</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.oreilly.com/ideas/six-reasons-why-i-recommend-scikit-learn">Six reasons why I recommend scikit-learn - O&#39;Reilly Media</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf">numpy.pdf</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://nlpforhackers.io/topic-modeling/">Complete Guide to Topic Modeling - NLP-FOR-HACKERS</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://courses.cs.washington.edu/courses/cse512/16sp/">CSE512: Data Visualization</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://zulko.github.io/blog/2014/11/13/things-you-can-do-with-python-and-pov-ray/">Things you can do with Python and POV-Ray - <strong>del</strong>( self )</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.destroyallsoftware.com/screencasts">Destroy All Software</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://stackoverflow.com/questions/41267709/no-matching-distribution-found-for-tkinter">python - No matching distribution found for tkinter - Stack Overflow</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://stackoverflow.com/questions/40632228/input-file-appears-to-be-a-text-format-dump-please-use-psql">postgresql - input file appears to be a text format dump. Please use psql - Stack Overflow</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://tecadmin.net/delete-commit-history-in-github/">How to Delete Commit History in Github – TecAdmin</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://codepen.io/Fotonmoton/pen/bpoZpM">js background changer</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://robots.thoughtbot.com/a-tmux-crash-course">A tmux Crash Course</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://wiki.python.org/moin/TimeComplexity">TimeComplexity - Python Wiki</h3></a>
-<h3 class="name"><a href="https://www.digitalocean.com/community/tutorials/how-to-use-arch-linux-package-management">How To Use Arch Linux Package Management | DigitalOcean</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://vimwiki.github.io/">Vimwiki by vimwiki</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://wiki.archlinux.org/index.php/List_of_applications/Documents#Presentations">List of applications/Documents - ArchWiki</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://wiki.manjaro.org/index.php?title=Pacman_Tips">Pacman Tips - Manjaro Linux</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://hacker-tools.github.io/">Hacker Tools · hacker tools</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="http://derekwyatt.org/vim/tutorials/index.html">Vim Videos - Flarfnoogins</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://wallpapercave.com/">Wallpaper Cave</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://leedev.org/arch-linux-much-faster-boot-time/">Arch Linux: Much Faster Boot Time</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://medium.com/@likid_geimfari/the-list-of-interesting-open-source-projects-2daaa2153f7c">The really big list of really interesting Open Source projects.</h3></a> 
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.howtoforge.com/learning-kubernetes-locally-via-minikube-on-linux-manjaro-archlinux/">Learning Kubernetes Locally via Minikube on Manjaro/Archlinux</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.thegeekdiary.com/how-to-build-and-push-docker-image-to-the-docker-hub-repository/">How to Build and push Docker Image to the Docker Hub Repository – The Geek Diary</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://golangtc.com/t/5873c7b0b09ecc2e1800010a">SpaceVim - Like spacemacs, but for vim - Golang 中国</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/">Generating Beautiful PDF from Markdown with Pandoc and Sublime Text - jdhao&#39;s blog</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX - Wikibooks, open books for an open world</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes">How To Remove Docker Images, Containers, and Volumes | DigitalOcean</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.kali.org/news/official-kali-linux-docker-images/">Official Kali Linux Docker Images | Kali Linux</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://medium.com/@airman604/kali-linux-in-a-docker-container-5a06311624eb">Kali Linux In a Docker Container - Airman - Medium</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.digitalocean.com/community/tutorials/installing-and-using-ranger-a-terminal-file-manager-on-a-ubuntu-vps">Installing and Using Ranger, a Terminal File Manager, on a Ubuntu VPS | DigitalOcean</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://www.rexegg.com/">Regex Tutorial—From Regex 101 to Advanced Regex</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://courses.cs.washington.edu/courses/cse512/16sp/lectures/CSE512-Text.pdf">CSE512-Text.key - CSE512-Text.pdf</h3></a>
-</li>
-<li class="list-group-item"><h3 class="name"><a href="https://pbrt.org/">Physically Based Rendering: From Theory to Implementation</h3></a>
-</li>
-</ul>
-</div>
-</div>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.davidbaumgold.com/tutorials/command-line/">Getting to Know the Command Line
+                        | David Baumgold</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://char.gd/">How to set up the perfect modern dev environment on Windows -
+                        Charged</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.taniarascia.com/my-front-end-web-development-setup/#text-editor--ide">My
+                        Complete Front End Web Development Setup – Tania Rascia</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.programmableweb.com/">ProgrammableWeb - APIs, Mashups and the Web as
+                        Platform</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/request/request">request/request: 🏊🏾 Simplified HTTP request
+                        client.</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/">25 Useful
+                        Basic Commands of APT-GET and APT-CACHE for Package Management</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://kb.iu.edu/d/akqg">What is SFTP, and how do I use it to transfer files?</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://danielmiessler.com/">Daniel Miessler :: information security, technology, and
+                        humans</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.py4e.com/">PY4E - Python for Everybody</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.financeandpython.com/BasicFinance/1/3.html">Basic Finance: Introduction |
+                        Finance and Python</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.topzenith.com/2017/04/top-10-video-tutorials-to-learn-python.html">Top 10
+                        video tutorials to learn Python - Top Zenith</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://docs.python-guide.org/en/latest/">The Hitchhiker&#39;s Guide to Python! — The
+                        Hitchhiker&#39;s Guide to Python</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://tech.marksblogg.com/">Tech Blog</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.csfieldguide.org.nz/en/chapters/formal-languages.html">Formal Languages -
+                        Computer Science Field Guide</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://matt.might.net/articles/what-cs-majors-should-know/">What every computer science
+                        major should know</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://pythonista-tools.github.io/Pythonista-Tools/">Pythonista Tools </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.cssdesignawards.com/website-gallery?feature=typographic&amp;page=3">Typographic
+                        Sites - A Gallery of Typographic Site Designs via CSS Design Awards</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://bradfrost.github.io/this-is-responsive/patterns.html#navigation">Responsive Web
+                        Design Patterns | This Is Responsive</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.youtube.com/watch?v=8kK-cA99SA0">CSS Transition (CSS Animations Series Part
+                        1) - YouTube</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://onepagelove.com/gallery/portfolio/page/10">Portfolio One Page Websites - Page
+                        10 of 276</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://codyhouse.co/gem/full-screen-pushing-navigation/">Full-Screen Pushing
+                        Navigation in CSS and jQuery | CodyHouse</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://pythonprogramming.net/game-development-tutorials/">Python Programming
+                        Tutorials</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.saltycrane.com/blog/tag/ssh/">Posts tagged &quot;ssh&quot; - SaltyCrane
+                        Blog</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://greenteapress.com/thinkcpp/">How to Think Like a Computer Scientist</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.computerscienceonline.org/courses/">Online CS Courses - Computer
+                        Science</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://rosettacode.org/wiki/Rosetta_Code">Rosetta Code</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://dev.to/vaidehijoshi/a-deeper-inspection-into-compilation-and-interpretation-8bp">A Deeper
+                        Inspection
+                        Into Compilation And Interpretation</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://dev.to/damcosset/trying-to-understand-blockchain-by-making-one-ce4">Trying to
+                        understand blockchain by making one!</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://dev.to/chrisvasqm/must-have-extensions-for-vs-code-according-to-me-dho">Must
+                        have extensions for VS Code (according to me)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/ossu/computer-science/blob/master/README.md">computer-science/README.md
+                        at master ossu/computer-science</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://mitpress.mit.edu/sicp/full-text/book/book.html">Structure and
+                        Interpretation of Computer Programs</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://school.geekwall.in/javascript">Learn Startup, starting a business, Mobile
+                        Development and Design with Node.js, Angular.js, React.js, Python, MongoDB, HTML5, CSS3, JavaScript, PHP, mobile app
+                        development, Responsive Web Design, Maketing</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.webcodegeeks.com/web-development/webrtc-tutorial-beginners/">WebRTC
+                        Tutorial for Beginners | Web Code Geeks - 2017</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://lyr.ai/artificial-intelligence-for-personal-use/">A list of artificial
+                        intelligence tools you can use today–– for personal use</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://youmightnotneedjquery.com/">You Might Not Need jQuery</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://careercup.com/page">Interview Questions | CareerCup</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://rejected.us/">We All Face Rejection.</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www-bcf.usc.edu/~gareth/ISL/">Introduction to Statistical Learning</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://work.caltech.edu/library/014.html">Learning Paradigms - Types of Learning
+                        (Abu-Mostafa)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://arxiv.org/pdf/1309.0238v1.pdf">1309.0238v1.pdf</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.oreilly.com/ideas/six-reasons-why-i-recommend-scikit-learn">Six reasons why
+                        I recommend scikit-learn - O&#39;Reilly Media</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf">numpy.pdf </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://nlpforhackers.io/topic-modeling/">Complete Guide to Topic Modeling -
+                        NLP-FOR-HACKERS</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://courses.cs.washington.edu/courses/cse512/16sp/">CSE512: Data Visualization</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://zulko.github.io/blog/2014/11/13/things-you-can-do-with-python-and-pov-ray/">Things
+                        you can do with Python and POV-Ray - <strong>del</strong>( self )</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.destroyallsoftware.com/screencasts">Destroy All Software </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://stackoverflow.com/questions/41267709/no-matching-distribution-found-for-tkinter">python - No
+                        matching distribution found for tkinter - Stack Overflow</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://stackoverflow.com/questions/40632228/input-file-appears-to-be-a-text-format-dump-please-use-psql">postgresql
+                        - input file appears to be a text format dump. Please use psql - Stack Overflow</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://tecadmin.net/delete-commit-history-in-github/">How to Delete Commit History in
+                        Github – TecAdmin</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://codepen.io/Fotonmoton/pen/bpoZpM">js background changer </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://robots.thoughtbot.com/a-tmux-crash-course">A tmux Crash Course </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://wiki.python.org/moin/TimeComplexity">TimeComplexity - Python Wiki</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.digitalocean.com/community/tutorials/how-to-use-arch-linux-package-management">How To Use Arch
+                        Linux Package Management | DigitalOcean</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://vimwiki.github.io/">Vimwiki by vimwiki</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://wiki.archlinux.org/index.php/List_of_applications/Documents#Presentations">List
+                        of applications/Documents - ArchWiki</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://wiki.manjaro.org/index.php?title=Pacman_Tips">Pacman Tips - Manjaro Linux</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://hacker-tools.github.io/">Hacker Tools hacker tools</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://derekwyatt.org/vim/tutorials/index.html">Vim Videos - Flarfnoogins</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://wallpapercave.com/">Wallpaper Cave</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://leedev.org/arch-linux-much-faster-boot-time/">Arch Linux: Much Faster Boot
+                        Time</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://medium.com/@likid_geimfari/the-list-of-interesting-open-source-projects-2daaa2153f7c">The really
+                        big list of really interesting Open Source projects.</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.howtoforge.com/learning-kubernetes-locally-via-minikube-on-linux-manjaro-archlinux/">Learning
+                        Kubernetes Locally via Minikube on Manjaro/Archlinux</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.thegeekdiary.com/how-to-build-and-push-docker-image-to-the-docker-hub-repository/">How to
+                        Build
+                        and push Docker Image to the Docker Hub Repository – The Geek Diary</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://golangtc.com/t/5873c7b0b09ecc2e1800010a">SpaceVim - Like spacemacs, but for vim
+                        - Golang 中国</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/">Generating Beautiful PDF from
+                        Markdown with Pandoc and Sublime Text - jdhao&#39;s blog</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX - Wikibooks, open books for an open
+                        world</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes">How
+                        To Remove Docker Images, Containers, and Volumes | DigitalOcean</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.kali.org/news/official-kali-linux-docker-images/">Official Kali Linux
+                        Docker Images | Kali Linux</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://medium.com/@airman604/kali-linux-in-a-docker-container-5a06311624eb">Kali Linux
+                        In a Docker Container - Airman - Medium</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.digitalocean.com/community/tutorials/installing-and-using-ranger-a-terminal-file-manager-on-a-ubuntu-vps">Installing
+                        and Using Ranger, a Terminal File Manager, on a Ubuntu VPS | DigitalOcean</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.rexegg.com/">Regex Tutorial—From Regex 101 to Advanced Regex</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://courses.cs.washington.edu/courses/cse512/16sp/lectures/CSE512-Text.pdf">CSE512-Text.key
+                        - CSE512-Text.pdf</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://pbrt.org/">Physically Based Rendering: From Theory to Implementation</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 <script src="list.min.js"></script>
-<script  src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
