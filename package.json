@@ -1,0 +1,7 @@
+{
+  "name": "useful-bookmarks",
+  "version": "1.0.0",
+  "scripts": {
+    "make:md": "node scripting/generate-md.js > bookmarks.md"
+  }
+}
