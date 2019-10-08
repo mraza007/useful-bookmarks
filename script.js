@@ -4,8 +4,8 @@ var options = {
     { name: 'link', attr: 'href' }
   ],
   item: `
-    <li class="list-group-item">
-      <h3><a class="title link"></a></h3>
+    <li class="list-item list-group-item">
+      <h4><a class="title link"></a></h4>
     </li>
   `.trim()
 };
