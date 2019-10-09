@@ -26,6 +26,7 @@ var dataSource = bookmarks
 
 var languages = dataSource.filter(x => x.category === "languages");
 var web = dataSource.filter(x => x.category === "web");
+dataSource = dataSource.filter(x => x.category === undefined);
 
 var userList = new List('bookmarks', options, dataSource);
 var userListLanguages = new List('bookmarks-languages', options, languages);
