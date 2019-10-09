@@ -4,63 +4,63 @@ const bookmarks = [
         "link": "https://www.learnopencv.com/"
     },
     {
-        "title": "Fullstack React Native Book - The Complete Guide to React Native",
+        "title": "Fullstack React Native Book - The Complete Guide to React Native (React)",
         "link": "https://www.fullstackreact.com/react-native/"
     },
     {
-        "title": "build-linux/README.md at master · MichielDerhaeg/build-linux",
+        "title": "build-linux/README.md at master · MichielDerhaeg/build-linux (Linux)",
         "link": "https://github.com/MichielDerhaeg/build-linux/blob/master/README.md"
     },
     {
-        "title": "Compilers 101 – Overview and Lexer – Xojo Blog",
+        "title": "Compilers 101 – Overview and Lexer – Xojo Blog (Compilers)",
         "link": "https://blog.xojo.com/2017/12/06/compilers-101-overview-and-lexer/"
     },
     {
-        "title": "linalg.pdf",
+        "title": "linalg.pdf (Linear Algebra)",
         "link": "http://www.seas.upenn.edu/~cis515/linalg.pdf"
     },
     {
-        "title": "Introduction to C Programming - Table of Contents",
+        "title": "Introduction to C Programming - Table of Contents (C)",
         "link": "https://www.le.ac.uk/users/rjm1/cotter/index.htm"
     },
     {
-        "title": "Awesome Python",
+        "title": "Awesome Python (Python)",
         "link": "https://awesome-python.com/"
     },
     {
-        "title": "Git Cheatsheet",
+        "title": "Git Cheatsheet (Git)",
         "link": "http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;"
     },
     {
-        "title": "wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter",
+        "title": "wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter (Python / Raspberry Pi)",
         "link": "http://www.wikipython.com/"
     },
     {
-        "title": "Watch and Code®",
+        "title": "Watch and Code® (Tutorials / Courses)",
         "link": "https://watchandcode.com/"
     },
     {
-        "title": "How to turn your side project into an open source project - Reaktor",
+        "title": "How to turn your side project into an open source project - Reaktor (Tutorials)",
         "link": "https://www.reaktor.com/blog/how-to-turn-your-side-project-into-an-open-source-project/?utm_source=DigitalOcean_Newsletter"
     },
     {
-        "title": "How to Build Android ROMs on Ubuntu 16.04 | DigitalOcean",
+        "title": "How to Build Android ROMs on Ubuntu 16.04 | DigitalOcean (Ubuntu / Tutorials)",
         "link": "https://www.digitalocean.com/community/tutorials/how-to-build-android-roms-on-ubuntu-16-04?utm_medium=email&utm_source=IaaN&utm_campaign=01182018"
     },
     {
-        "title": "Solarian Programmer | My programming ramblings",
+        "title": "Solarian Programmer | My programming ramblings (Raspberry Pi / C++ / Python)",
         "link": "https://solarianprogrammer.com/"
     },
     {
-        "title": "C/C++ Programming for Hackers: Part 1 (Introduction) « Null Byte :: WonderHowTo",
+        "title": "C/C++ Programming for Hackers: Part 1 (Introduction) « Null Byte :: WonderHowTo (C++ / Tutorial)",
         "link": "https://null-byte.wonderhowto.com/how-to/c-c-programming-for-hackers-part-1-introduction-0162213/"
     },
     {
-        "title": "Temperature log - Introduction | Raspberry Pi Projects",
+        "title": "Temperature log - Introduction | Raspberry Pi Projects (Raspberry Pi)",
         "link": "https://projects.raspberrypi.org/en/projects/temperature-log"
     },
     {
-        "title": "Short, instructional screencast video tutorials for web developers on @eggheadio",
+        "title": "Short, instructional screencast video tutorials for web developers on @eggheadio (JavaScript / React)",
         "link": "https://egghead.io/"
     },
     {
@@ -68,7 +68,7 @@ const bookmarks = [
         "link": "http://www.lib4dev.com/topics/python?p=3&s=stars"
     },
     {
-        "title": "Using git-flow to automate your git branching workflow",
+        "title": "Using git-flow to automate your git branching workflow (Git)",
         "link": "https://jeffkreeftmeijer.com/git-flow/"
     },
     {
@@ -80,111 +80,111 @@ const bookmarks = [
         "link": "https://michael.stapelberg.de/posts/"
     },
     {
-        "title": "Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures",
+        "title": "Problem Solving with Algorithms and Data Structures using Python — Problem Solving with Algorithms and Data Structures (Python)",
         "link": "https://interactivepython.org/runestone/static/pythonds/index.html"
     },
     {
-        "title": "Deploying a New Python Package to Pypi – Developers Area",
+        "title": "Deploying a New Python Package to Pypi – Developers Area (Python)",
         "link": "http://devarea.com/deploying-a-new-python-package-to-pypi/"
     },
     {
-        "title": "#rice - list o' resources",
+        "title": "#rice - list o' resources (Ricing)",
         "link": "https://rizonrice.github.io/resources"
     },
     {
-        "title": "Lex Fridman | MIT",
+        "title": "Lex Fridman | MIT (Profile)",
         "link": "https://lexfridman.com/"
     },
     {
-        "title": "Learn React for free | Scrimba.com",
+        "title": "Learn React for free | Scrimba.com (React / Courses)",
         "link": "https://scrimba.com/g/glearnreact"
     },
     {
-        "title": "TextBlob and Sentiment Analysis — Python – Rahul Vaish – Medium",
+        "title": "TextBlob and Sentiment Analysis — Python – Rahul Vaish – Medium (Python)",
         "link": "https://medium.com/@rahulvaish/textblob-and-sentiment-analysis-python-a687e9fabe96"
     },
     {
-        "title": "Devhints — TL;DR for developer documentation",
+        "title": "Devhints — TL;DR for developer documentation (Reference / CSS / Git / HTML / JavaScript / Node.js)",
         "link": "https://devhints.io/"
     },
     {
-        "title": "Best Vim Tips | Vim Tips Wiki | FANDOM powered by Wikia",
+        "title": "Best Vim Tips | Vim Tips Wiki | FANDOM powered by Wikia (Reference / Vim)",
         "link": "http://vim.wikia.com/wiki/Best_Vim_Tips"
     },
     {
-        "title": "Write your Own Virtual Machine",
+        "title": "Write your Own Virtual Machine (VM)",
         "link": "https://justinmeiners.github.io/lc3-vm/"
     },
     {
-        "title": "Ten simple rules for documenting scientific software",
+        "title": "Ten simple rules for documenting scientific software (Documentation)",
         "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561"
     },
     {
-        "title": "HowToBeAProgrammer.pdf",
+        "title": "HowToBeAProgrammer.pdf (Tutorials / Programming)",
         "link": "https://www.doc.ic.ac.uk/~susan/475/HowToBeAProgrammer.pdf"
     },
     {
-        "title": "Programmer Competency Matrix | Sijin Joseph",
+        "title": "Programmer Competency Matrix | Sijin Joseph (Programming)",
         "link": "https://sijinjoseph.com/programmer-competency-matrix/"
     },
     {
-        "title": "Want to build something fun? Here’s a list of sample web app ideas.",
+        "title": "Want to build something fun? Here’s a list of sample web app ideas. (Web Apps)",
         "link": "https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a"
     },
     {
-        "title": "thinking-forth-color.pdf",
+        "title": "thinking-forth-color.pdf (Forth / Reference)",
         "link": "https://1scyem2bunjw1ghzsf1cjwwn-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/thinking-forth-color.pdf"
     },
     {
-        "title": "Find the best online programming courses & tutorials - Hackr.io",
+        "title": "Find the best online programming courses & tutorials - Hackr.io (Tutorials)",
         "link": "https://hackr.io/"
     },
     {
-        "title": "The Scientist & Engineer's Guide to Digital Signal Processing, 1999 | Education | Analog Devices",
+        "title": "The Scientist & Engineer's Guide to Digital Signal Processing, 1999 | Education | Analog Devices (Programming / Reference)",
         "link": "https://www.analog.com/en/education/education-library/scientist_engineers_guide.html"
     },
     {
-        "title": "Must Read CS Books For Self Self-Taught Programmers | Hacker News",
+        "title": "Must Read CS Books For Self Self-Taught Programmers | Hacker News (Programming / Reference)",
         "link": "https://news.ycombinator.com/item?id=2414280"
     },
     {
-        "title": "Awesome C/C++",
+        "title": "Awesome C/C++ (C / C++)",
         "link": "http://fffaraz.github.io/awesome-cpp/"
     },
     {
-        "title": "Building Beautiful Command Line Interfaces with Python",
+        "title": "Building Beautiful Command Line Interfaces with Python (Python / Command Line)",
         "link": "https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df"
     },
     {
-        "title": "How To Setup a Firewall with UFW on an Ubuntu and Debian Cloud Server | DigitalOcean",
+        "title": "How To Setup a Firewall with UFW on an Ubuntu and Debian Cloud Server | DigitalOcean (Security / Ubuntu)",
         "link": "https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server"
     },
     {
-        "title": "How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04 | DigitalOcean",
+        "title": "How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04 | DigitalOcean (Django / Ubuntu)",
         "link": "https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04"
     },
     {
-        "title": "Dashboard | Stanford Lagunita",
+        "title": "Dashboard | Stanford Lagunita (Reference)",
         "link": "https://lagunita.stanford.edu/dashboard"
     },
     {
-        "title": "The Architecture of Open Source Applications",
+        "title": "The Architecture of Open Source Applications (Architecture / Open Source)",
         "link": "http://aosabook.org/en/"
     },
     {
-        "title": "Jessie Frazelle's Blog: Books I Recommend",
+        "title": "Jessie Frazelle's Blog: Books I Recommend (Reference / Books)",
         "link": "https://blog.jessfraz.com/post/books/"
     },
     {
-        "title": "Machine Learning - Data Scientist Path",
+        "title": "Machine Learning - Data Scientist Path (Machine Learning)",
         "link": "https://aws.amazon.com/training/learning-paths/machine-learning/data-scientist/"
     },
     {
-        "title": "Manning | Catalog",
+        "title": "Manning | Catalog (Reference / Books)",
         "link": "https://www.manning.com/catalog#section-68"
     },
     {
-        "title": "explainshell.com - match command-line arguments to their help text",
+        "title": "explainshell.com - match command-line arguments to their help text (Command Line)",
         "link": "https://www.explainshell.com/"
     },
     {
