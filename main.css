@@ -1,5 +1,9 @@
-.card-header .control {
+.search-area {
     width: -webkit-fill-available;
+}
+
+.card-header .control .has-icons-left div{ 
+    width: inherit;
 }
 
 .card-content .content ul {
