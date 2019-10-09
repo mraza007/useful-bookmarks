@@ -1,16 +1,4 @@
-.search-area {
-    width: -webkit-fill-available;
-}
-
-.card-header .control .has-icons-left div{ 
-    width: inherit;
-}
-
-.card-content .content ul {
-    margin-left: 0;
-}
-
-.card {
+#search-bar {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }

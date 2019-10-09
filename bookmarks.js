@@ -1,11 +1,13 @@
 const bookmarks = [
     {
         "title": "Learn OpenCV ( C++ / Python )",
-        "link": "https://www.learnopencv.com/"
+        "link": "https://www.learnopencv.com/",
+        "tags": [ "C++", "python", "OpenCV" ]
     },
     {
         "title": "Fullstack React Native Book - The Complete Guide to React Native",
-        "link": "https://www.fullstackreact.com/react-native/"
+        "link": "https://www.fullstackreact.com/react-native/",
+        "tags": [ "react" ]
     },
     {
         "title": "build-linux/README.md at master · MichielDerhaeg/build-linux",
@@ -17,7 +19,8 @@ const bookmarks = [
     },
     {
         "title": "linalg.pdf",
-        "link": "http://www.seas.upenn.edu/~cis515/linalg.pdf"
+        "link": "http://www.seas.upenn.edu/~cis515/linalg.pdf",
+        "tags": [ "mathematics" ]
     },
     {
         "title": "Introduction to C Programming - Table of Contents",
@@ -25,15 +28,18 @@ const bookmarks = [
     },
     {
         "title": "Awesome Python",
-        "link": "https://awesome-python.com/"
+        "link": "https://awesome-python.com/",
+        "tags": [ "python" ]
     },
     {
         "title": "Git Cheatsheet",
-        "link": "http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;"
+        "link": "http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;",
+        "tags": [ "git" ]
     },
     {
         "title": "wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter",
-        "link": "http://www.wikipython.com/"
+        "link": "http://www.wikipython.com/",
+        "tags": [ "python" ]
     },
     {
         "title": "Watch and Code®",

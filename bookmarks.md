@@ -1,15 +1,21 @@
 # useful-bookmarks
 #### This repo is dedicated to list of useful bookmarks that I bookmarked when discovering something new or while learning programming
 
-- [Learn OpenCV ( C++ / Python )](https://www.learnopencv.com/)
-- [Fullstack React Native Book - The Complete Guide to React Native](https://www.fullstackreact.com/react-native/)
+- [Learn OpenCV ( C++ / Python )](https://www.learnopencv.com/)  
+  tags: `C++`, `python`, `OpenCV`
+- [Fullstack React Native Book - The Complete Guide to React Native](https://www.fullstackreact.com/react-native/)  
+  tags: `react`
 - [build-linux/README.md at master · MichielDerhaeg/build-linux](https://github.com/MichielDerhaeg/build-linux/blob/master/README.md)
 - [Compilers 101 – Overview and Lexer – Xojo Blog](https://blog.xojo.com/2017/12/06/compilers-101-overview-and-lexer/)
-- [linalg.pdf](http://www.seas.upenn.edu/~cis515/linalg.pdf)
+- [linalg.pdf](http://www.seas.upenn.edu/~cis515/linalg.pdf)  
+  tags: `mathematics`
 - [Introduction to C Programming - Table of Contents](https://www.le.ac.uk/users/rjm1/cotter/index.htm)
-- [Awesome Python](https://awesome-python.com/)
-- [Git Cheatsheet](http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;)
-- [wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter](http://www.wikipython.com/)
+- [Awesome Python](https://awesome-python.com/)  
+  tags: `python`
+- [Git Cheatsheet](http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;)  
+  tags: `git`
+- [wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter](http://www.wikipython.com/)  
+  tags: `python`
 - [Watch and Code®](https://watchandcode.com/)
 - [How to turn your side project into an open source project - Reaktor](https://www.reaktor.com/blog/how-to-turn-your-side-project-into-an-open-source-project/?utm_source=DigitalOcean_Newsletter)
 - [How to Build Android ROMs on Ubuntu 16.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-build-android-roms-on-ubuntu-16-04?utm_medium=email&utm_source=IaaN&utm_campaign=01182018)
@@ -149,3 +155,8 @@
 - [Regex Tutorial—From Regex 101 to Advanced Regex](https://www.rexegg.com/)
 - [CSE512-Text.key - CSE512-Text.pdf](https://courses.cs.washington.edu/courses/cse512/16sp/lectures/CSE512-Text.pdf)
 - [Physically Based Rendering: From Theory to Implementation](https://pbrt.org/)
+- [The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
+- [Report - Google Docs](https://docs.google.com/document/d/1jDYHFsakg0J-5G_RPppXOT0UX3tjf8D7ZBiPgmDGbQo/edit#)
+- [Portfolio One Page Websites - Page 261 of 276](https://onepagelove.com/gallery/portfolio/page/261)
+- [How to set up the perfect modern dev environment on Windows - Charged](https://char.gd/blog/2017/how-to-set-up-the-perfect-modern-dev-environment-on-windows)
+- [Pipenv & Virtual Environments — The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/dev/virtualenvs/)

@@ -1,13 +1,26 @@
 var options = {
   valueNames: [
     'title',
-    { name: 'link', attr: 'href' }
+    { name: 'link', attr: 'href' },
+    'tags',
   ],
   item: `
-    <li class="list-item list-group-item">
-      <h4><a class="title link"></a></h4>
-    </li>
+    <div class="card">
+      <div class="card-content">
+        <h4><a class="title link"></a></h4>
+        <div class="tags"></div>
+      </div>
+    </div>
   `.trim()
 };
 
-var userList = new List('bookmarks', options, bookmarks);
+var dataSource = bookmarks
+  .map(x => ({
+    title: x.title,
+    link: x.link,
+    tags: (x.tags || [])
+      .map(x => `<span class='tag is-info'>${x}</span>`)
+      .join(''),
+  }));
+
+var userList = new List('bookmarks', options, dataSource);
