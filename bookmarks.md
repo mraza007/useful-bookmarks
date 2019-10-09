@@ -149,3 +149,4 @@
 - [Regex Tutorial—From Regex 101 to Advanced Regex](https://www.rexegg.com/)
 - [CSE512-Text.key - CSE512-Text.pdf](https://courses.cs.washington.edu/courses/cse512/16sp/lectures/CSE512-Text.pdf)
 - [Physically Based Rendering: From Theory to Implementation](https://pbrt.org/)
+- [Learn Machine Learning in 3 months by Expert ](https://www.youtube.com/watch?v=Cr6VqTRO1v0)
