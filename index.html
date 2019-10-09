@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Bookmarks</title>
-    <link rel="stylesheet" type="text/css" href="./main.css">
     <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -12,6 +11,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./main.css">
     <style>
         li {
             font-family: 'Titillium Web', sans-serif;
@@ -61,7 +61,72 @@
             </div>
         </div>
     </div>
+
+
+    <h3>Web Development</h3>
+    <div id="bookmarks-web">
+        <!-- search bar -->
+        <div id="search-bar" class="columns">
+            <div class="column is-four-fifths">
+                <div class="control has-icons-left">
+                    <input class="input is-danger is-large search" type="text" placeholder="Search">
+                    <span class="icon is-medium is-left">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="column">
+                <div class='control'>
+                    <button class='sort button is-large is-fullwidth is-danger ' data-sort='name'>Sort by name</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- bookmarks placeholder -->
+        <div class="columns">
+            <div class="column">
+                <div class='content'>
+                    <div class="list list-group is-hoverable"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h3>Languages</h3>
+    <div id="bookmarks-languages">
+        <!-- search bar -->
+        <div id="search-bar" class="columns">
+            <div class="column is-four-fifths">
+                <div class="control has-icons-left">
+                    <input class="input is-danger is-large search" type="text" placeholder="Search">
+                    <span class="icon is-medium is-left">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="column">
+                <div class='control'>
+                    <button class='sort button is-large is-fullwidth is-danger ' data-sort='name'>Sort by name</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- bookmarks placeholder -->
+        <div class="columns">
+            <div class="column">
+                <div class='content'>
+                    <div class="list list-group is-hoverable"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 </div>
+
 <script src="list.min.js"></script>
 <script src="bookmarks.js"></script>
 <script src="script.js"></script>

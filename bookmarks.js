@@ -2,12 +2,14 @@ const bookmarks = [
     {
         "title": "Learn OpenCV ( C++ / Python )",
         "link": "https://www.learnopencv.com/",
-        "tags": [ "C++", "python", "OpenCV" ]
+        "tags": [ "C++", "python", "OpenCV" ],
+        "category": "languages"
     },
     {
         "title": "Fullstack React Native Book - The Complete Guide to React Native",
         "link": "https://www.fullstackreact.com/react-native/",
-        "tags": [ "react" ]
+        "tags": [ "react" ],
+        "category": "web"
     },
     {
         "title": "build-linux/README.md at master · MichielDerhaeg/build-linux",
@@ -24,12 +26,14 @@ const bookmarks = [
     },
     {
         "title": "Introduction to C Programming - Table of Contents",
-        "link": "https://www.le.ac.uk/users/rjm1/cotter/index.htm"
+        "link": "https://www.le.ac.uk/users/rjm1/cotter/index.htm",
+        "category": "languages"
     },
     {
         "title": "Awesome Python",
         "link": "https://awesome-python.com/",
-        "tags": [ "python" ]
+        "tags": [ "python" ],
+        "category": "languages"
     },
     {
         "title": "Git Cheatsheet",
@@ -39,7 +43,8 @@ const bookmarks = [
     {
         "title": "wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter",
         "link": "http://www.wikipython.com/",
-        "tags": [ "python" ]
+        "tags": [ "python" ],
+        "category": "languages"
     },
     {
         "title": "Watch and Code®",
@@ -91,7 +96,8 @@ const bookmarks = [
     },
     {
         "title": "Deploying a New Python Package to Pypi – Developers Area",
-        "link": "http://devarea.com/deploying-a-new-python-package-to-pypi/"
+        "link": "http://devarea.com/deploying-a-new-python-package-to-pypi/",
+        "category": "languages"
     },
     {
         "title": "#rice - list o' resources",
@@ -135,7 +141,8 @@ const bookmarks = [
     },
     {
         "title": "Want to build something fun? Here’s a list of sample web app ideas.",
-        "link": "https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a"
+        "link": "https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a",
+        "category": "web"
     },
     {
         "title": "thinking-forth-color.pdf",
@@ -155,7 +162,8 @@ const bookmarks = [
     },
     {
         "title": "Awesome C/C++",
-        "link": "http://fffaraz.github.io/awesome-cpp/"
+        "link": "http://fffaraz.github.io/awesome-cpp/",
+        "category": "languages"
     },
     {
         "title": "Building Beautiful Command Line Interfaces with Python",
@@ -203,7 +211,8 @@ const bookmarks = [
     },
     {
         "title": "Practice Python",
-        "link": "http://www.practicepython.org/"
+        "link": "http://www.practicepython.org/",
+        "category": "languages"
     },
     {
         "title": "Neural networks and deep learning",
@@ -215,11 +224,13 @@ const bookmarks = [
     },
     {
         "title": "Why Python? | Linux Journal",
-        "link": "http://www.linuxjournal.com/article/3882"
+        "link": "http://www.linuxjournal.com/article/3882",
+        "category": "languages"
     },
     {
         "title": "Why Is Python So Popular? - Dice Insights",
-        "link": "https://insights.dice.com/2016/06/01/why-is-python-so-popular/"
+        "link": "https://insights.dice.com/2016/06/01/why-is-python-so-popular/",
+        "category": "languages"
     },
     {
         "title": "Circuit Basics - Raspberry Pi",
