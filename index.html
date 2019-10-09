@@ -35,25 +35,28 @@
 </section>
 <div class="container">
     <div id="bookmarks">
-        <div class="card">
-            <header class='card-header'>
-                <div class='field has-addons search-area'>
-                    <div class="control has-icons-left search-area">
-                        <input class="input is-danger is-large search" type="text" placeholder="Search">
-                        <span class="icon is-medium is-left">
-                            <i class="fa fa-search"></i>
-                        </span>               
-                    </div>
-                    <div class='control'>
-                        <button class='sort button is-large is-danger' data-sort='name'>Sort by name</button>
-                    </div>   
+        <!-- search bar -->
+        <div id="search-bar" class="columns">
+            <div class="column is-four-fifths">
+                <div class="control has-icons-left">
+                    <input class="input is-danger is-large search" type="text" placeholder="Search">
+                    <span class="icon is-medium is-left">
+                        <i class="fa fa-search"></i>
+                    </span>
                 </div>
-            </header>
-            <div class='card-content'>
+            </div>
+            <div class="column">
+                <div class='control'>
+                    <button class='sort button is-large is-fullwidth is-danger ' data-sort='name'>Sort by name</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- bookmarks placeholder -->
+        <div class="columns">
+            <div class="column">
                 <div class='content'>
-                    <ul class="list list-group is-hoverable">
-                    
-                    </ul>
+                    <div class="list list-group is-hoverable"></div>
                 </div>
             </div>
         </div>
