@@ -1,8 +1,16 @@
-.card-header .control {
+.search-area {
     width: -webkit-fill-available;
 }
 
-#search-bar {
+.card-header .control .has-icons-left div{ 
+    width: inherit;
+}
+
+.card-content .content ul {
+    margin-left: 0;
+}
+
+.card {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
