@@ -7,5 +7,10 @@ console.log('');
 
 // write bookmarks
 bookmarks.forEach(bookmark => {
-  console.log(`- [${bookmark.title}](${bookmark.link})`);
+  if (bookmark.tags && bookmark.tags.length) {
+    console.log(`- [${bookmark.title}](${bookmark.link})  `);
+    console.log('  tags: ' + bookmark.tags.map(x => `\`${x}\``).join(', '));
+  } else {
+    console.log(`- [${bookmark.title}](${bookmark.link})`);
+  }
 });

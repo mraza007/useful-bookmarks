@@ -1,11 +1,13 @@
 const bookmarks = [
     {
         "title": "Learn OpenCV ( C++ / Python )",
-        "link": "https://www.learnopencv.com/"
+        "link": "https://www.learnopencv.com/",
+        "tags": [ "C++", "python", "OpenCV" ]
     },
     {
-        "title": "Fullstack React Native Book - The Complete Guide to React Native (React)",
-        "link": "https://www.fullstackreact.com/react-native/"
+        "title": "Fullstack React Native Book - The Complete Guide to React Native",
+        "link": "https://www.fullstackreact.com/react-native/",
+        "tags": [ "react" ]
     },
     {
         "title": "build-linux/README.md at master · MichielDerhaeg/build-linux (Linux)",
@@ -16,24 +18,28 @@ const bookmarks = [
         "link": "https://blog.xojo.com/2017/12/06/compilers-101-overview-and-lexer/"
     },
     {
-        "title": "linalg.pdf (Linear Algebra)",
-        "link": "http://www.seas.upenn.edu/~cis515/linalg.pdf"
+        "title": "linalg.pdf",
+        "link": "http://www.seas.upenn.edu/~cis515/linalg.pdf",
+        "tags": [ "mathematics" ]
     },
     {
         "title": "Introduction to C Programming - Table of Contents (C)",
         "link": "https://www.le.ac.uk/users/rjm1/cotter/index.htm"
     },
     {
-        "title": "Awesome Python (Python)",
-        "link": "https://awesome-python.com/"
+        "title": "Awesome Python",
+        "link": "https://awesome-python.com/",
+        "tags": [ "python" ]
     },
     {
-        "title": "Git Cheatsheet (Git)",
-        "link": "http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;"
+        "title": "Git Cheatsheet",
+        "link": "http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;",
+        "tags": [ "git" ]
     },
     {
-        "title": "wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter (Python / Raspberry Pi)",
-        "link": "http://www.wikipython.com/"
+        "title": "wikiPython – Python (3.5+), Raspberry Pi, RPi.GPIO, and tkinter",
+        "link": "http://www.wikipython.com/",
+        "tags": [ "python" ]
     },
     {
         "title": "Watch and Code® (Tutorials / Courses)",
