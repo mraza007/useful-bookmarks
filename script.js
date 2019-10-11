@@ -24,29 +24,77 @@ var dataSource = bookmarks
       .join(''),
   }));
 
-var languages = dataSource.filter(x => x.category === "languages");
-var web = dataSource.filter(x => x.category === "web");
-dataSource = dataSource.filter(x => x.category === undefined);
 
-var userList = new List('bookmarks', options, dataSource);
-var userListLanguages = new List('bookmarks-languages', options, languages);
-var userListWeb = new List('bookmarks-web', options, web);
+// categories and categoryHeaders are order-sensitive
 
-// Sections to add:
-//
-// Security
-// Assembly
-// Dev Environment and DevOps
-// Operating Systems
-// Unix and CLI
-// Web
-// Programming Languageses
-//    Python
-// Documentation and Text Formatting
-//    PDF from markdown
-//    latex
-// Hardware
-//    Raspberry pi stuff
-// Misc.
-// Personal
-//    There was one document on Google Drive
+var categories = [
+  "dev",
+  "languages",
+  "algorithms",
+  "web",
+  "os",
+  "unixcli",
+  "mobile",
+  "ml",
+  "security",
+  "assembly",
+  "hardware",
+  "documentation",
+  "maths",
+  "misc",
+  "personal"
+]
+
+var categoryHeaders = [
+  "Dev Environment and DevOps",
+  "Languages",
+  "Algorithms",
+  "Web Developement",
+  "Operating Systems",
+  "Unix and CLI",
+  "Mobile",
+  "Machine Learning and AI",
+  "Security",
+  "Assembly",
+  "Hardware",
+  "Documentation and Text Formatting",
+  "Mathematics",
+  "Misc.",
+  "Personal"
+]
+
+
+// Get target element to add category elements to it
+let target = document.getElementsByClassName("container")[1];
+// Get list element to clone it
+let el = document.getElementById("bookmarks");
+
+
+categories.forEach(function(category, index, arr) {
+  // Create new element for the category
+  let clonedListElement = el.cloneNode(true);
+  let categoryID = "bookmarks-" + category; // bookmarks-web
+  clonedListElement.setAttribute("id", categoryID);
+  clonedListElement.firstElementChild.innerText = categoryHeaders[index];
+  target.appendChild(clonedListElement);
+
+  // filter entries from main bookmarks list
+  let filteredList = dataSource.filter(dsElement => dsElement.category === category);
+  let newList = new List(categoryID, options, filteredList);
+
+  // removing the ones we categorized
+  dataSource = dataSource.filter(dsElement => dsElement.category !== category);
+});
+
+
+// Adding leftover categories into an undefined category
+var clonedListElement = el.cloneNode(true);
+var categoryID = "bookmarks-leftover";
+clonedListElement.setAttribute("id", categoryID);
+clonedListElement.firstElementChild.innerText = "Uncategorized";
+target.appendChild(clonedListElement);
+var newList = new List(categoryID, options, dataSource);
+
+
+// Remove the initial list which we were cloning from
+el.remove();
