@@ -52,45 +52,6 @@
             </div>
         </div>
 
-        <button id="bookmark-button" class="button is-info is-medium" onclick="toggleModal()">
-            <i class="fa fa-plus"></i>&nbsp;Add bookmark 
-        </button>
-
-        <div id="bookmark-form-modal" class="modal">
-            <div class="modal-background" onclick="closeModal()"></div>
-            <div class="modal-content">
-                <div id="bookmark-form">
-                    <div class="field">
-                        <label class="label">Link</label>
-                        <div class="control">
-                            <input id="link" class="input is-hovered" type="text" required>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Title</label>
-                        <div class="control">
-                            <input id="title" class="input is-hovered" type="text" required>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Tags</label>
-                        <div class="control">
-                            <input id="tags" class="input is-hovered" type="text" placeholder="C++, Python, OpenCV">
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column">
-                            <div class="button is-success is-fullwidth" onclick="saveBookmark()">Save</div>
-                        </div>
-                        <div class="column">
-                            <div class="button is-danger is-fullwidth" onclick="closeModal()">Cancel</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
-        </div>
-
         <!-- bookmarks placeholder -->
         <div class="columns">
             <div class="column">
