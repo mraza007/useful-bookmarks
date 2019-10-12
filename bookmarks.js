@@ -5,6 +5,11 @@ const bookmarks = [
         "tags": [ "C++", "python", "OpenCV" ]
     },
     {
+        "title": "StartUp Ideas",
+        "link": "https://unawaz.github.io/stochastic-hill-climbing/tasks/",
+        "tags": [ "startup", "ideas", "OpenCV" ]
+    },
+    {
         "title": "Fullstack React Native Book - The Complete Guide to React Native",
         "link": "https://www.fullstackreact.com/react-native/",
         "tags": [ "react" ]
