@@ -621,6 +621,10 @@ const bookmarks = [
     {
         "title": "Pipenv & Virtual Environments — The Hitchhiker's Guide to Python",
         "link": "http://docs.python-guide.org/en/latest/dev/virtualenvs/"
+    },
+    {
+        "title": "Web Development learning tool",
+        "link": "https://www.traversymedia.com"
     }
 ];
 
