@@ -3,6 +3,17 @@
     margin-bottom: 3rem;
 }
 
+h3 {
+	padding-top: 25px;
+	display: block;
+	font-size: 1.8em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
 #bookmark-form {
     background-color: white;
     padding: 3rem;
@@ -11,3 +22,4 @@
 #bookmark-button {
     margin: 1rem 0;
 }
+

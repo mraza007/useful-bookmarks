@@ -25,6 +25,7 @@ var dataSource = bookmarkList
   .map(x => ({
     title: x.title,
     link: x.link,
+    category: x.category,
     tags: (x.tags || [])
       .filter(tag => tag.length > 0)
       .map(x => `<span class='tag is-info'>${x}</span>`)

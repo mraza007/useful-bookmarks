@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Bookmarks</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <style>
+        li {
+            font-family: 'Titillium Web', sans-serif;
+        }    
+    </style>
+</head>
+
+<body>
+<section class='hero is-dark'>
+    <div class='hero-body'>
+        <div class='container'>
+            <h1 class='title'>
+                <i class="icon has-text-danger far fa-bookmark"></i>
+                Useful Bookmarks
+            </h1>
+            <h2 class='subtitle'>
+                This repo is dedicated to list of useful bookmarks that I bookmarked when discovering something new or while
+                learning programming
+            </h2>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+
+    <button id="bookmark-button" class="button is-info is-medium" onclick="toggleModal()">
+        <i class="fa fa-plus"></i>&nbsp;Add bookmark 
+    </button>
+
+    <div id="bookmark-form-modal" class="modal">
+        <div class="modal-background" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <div id="bookmark-form">
+                <div class="field">
+                    <label class="label">Link</label>
+                    <div class="control">
+                        <input id="link" class="input is-hovered" type="text" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Title</label>
+                    <div class="control">
+                        <input id="title" class="input is-hovered" type="text" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Tags</label>
+                    <div class="control">
+                        <input id="tags" class="input is-hovered" type="text" placeholder="C++, Python, OpenCV">
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="button is-success is-fullwidth" onclick="saveBookmark()">Save</div>
+                    </div>
+                    <div class="column">
+                        <div class="button is-danger is-fullwidth" onclick="closeModal()">Cancel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+    </div>
+
+    <div id="bookmarks">
+        <h3 class="title">Category (this should vanish)</h3>
+        <!-- search bar -->
+        <div id="search-bar" class="columns">
+            <div class="column is-four-fifths">
+                <div class="control has-icons-left">
+                    <input class="input is-danger is-large search" type="text" placeholder="Search">
+                    <span class="icon is-medium is-left">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="column">
+                <div class='control'>
+                    <button class='sort button is-large is-fullwidth is-danger ' data-sort='name'>Sort by name</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- bookmarks placeholder -->
+        <div class="columns">
+            <div class="column">
+                <div class='content'>
+                    <div class="list list-group is-hoverable"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="list.min.js"></script>
+<script src="bookmarks.js"></script>
+<script src="scripting/categorize.js"></script>
+</body>
+</html>
