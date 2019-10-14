@@ -76,7 +76,6 @@ let target = document.getElementsByClassName("container")[1];
 // Get list element to clone it
 let el = document.getElementById("bookmarks");
 
-
 categories.forEach(function(category, index, arr) {
   // Create new element for the category
   let clonedListElement = el.cloneNode(true);

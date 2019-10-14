@@ -8,7 +8,8 @@ const bookmarks = [
     {
         "title": "StartUp Ideas",
         "link": "https://unawaz.github.io/stochastic-hill-climbing/tasks/",
-        "tags": [ "startup", "ideas", "OpenCV" ]
+        "tags": [ "startup", "ideas", "OpenCV" ],
+        "category": ""
     },
     {
         "title": "Fullstack React Native Book - The Complete Guide to React Native",
