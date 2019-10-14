@@ -13,3 +13,13 @@ h3 {
 	margin-right: 0;
 	font-weight: bold;
 }
+
+#bookmark-form {
+    background-color: white;
+    padding: 3rem;
+}
+
+#bookmark-button {
+    margin: 1rem 0;
+}
+
