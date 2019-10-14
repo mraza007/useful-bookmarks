@@ -624,7 +624,9 @@ const bookmarks = [
     },
     {
         "title": "Web Development learning tool",
-        "link": "https://www.traversymedia.com"
+        "link": "https://www.traversymedia.com",
+        "tags": [ "Javascript", "Bootstrap", "Django","PHP","Angular" ]
+
     }
 ];
 
