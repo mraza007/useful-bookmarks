@@ -160,3 +160,5 @@
 - [Portfolio One Page Websites - Page 261 of 276](https://onepagelove.com/gallery/portfolio/page/261)
 - [How to set up the perfect modern dev environment on Windows - Charged](https://char.gd/blog/2017/how-to-set-up-the-perfect-modern-dev-environment-on-windows)
 - [Pipenv & Virtual Environments — The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+- [Intuitive tutorial on Django](https://tutorial.djangogirls.org/en/)
+  tags: `python`, `web development`
