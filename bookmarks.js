@@ -623,10 +623,14 @@ const bookmarks = [
         "link": "http://docs.python-guide.org/en/latest/dev/virtualenvs/"
     },
     {
+        "title": "Intuitive tutorial on Django",
+        "link": "https://tutorial.djangogirls.org/en/",
+        "tags": [ "python", "web development" ]
+    },
+    {
         "title": "Web Development learning tool",
         "link": "https://www.traversymedia.com",
-        "tags": [ "Javascript", "Bootstrap", "Django","PHP","Angular" ]
-
+        "tags": [ "Javascript", "Bootstrap", "Django", "PHP", "Angular" ]
     }
 ];
 
