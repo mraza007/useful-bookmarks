@@ -626,6 +626,11 @@ const bookmarks = [
         "title": "Intuitive tutorial on Django",
         "link": "https://tutorial.djangogirls.org/en/",
         "tags": [ "python", "web development" ]
+    },
+    {
+        "title": "Web Development learning tool",
+        "link": "https://www.traversymedia.com",
+        "tags": [ "Javascript", "Bootstrap", "Django", "PHP", "Angular" ]
     }
 ];
 
