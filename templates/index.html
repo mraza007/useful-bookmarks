@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmarks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="static/assets/css/style.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <style type="text/css">
+    .container {
+      padding: 10px;
+    }
+    em {
+      font-size: 13px;
+      padding-left: 7px;
+    }
+  </style>
+</head>
+<body>
+<section class="hero is-medium is-dark is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          My FireFox Bookmarks
+        </h1>
+        <h2 class="subtitle">
+          opensourced under MIT License
+        </h2>
+      </div>
+    </div>
+</section>
+
+<div class="container">
+  <nav class="panel is-link">
+    <p class="panel-heading">
+      Bookmarks
+    </p>
+    <div id="test-list">
+    <div class="panel-block">
+      <p class="control has-icons-left">
+        <input class="input fuzzy-search" type="text" placeholder="Search">
+        <span class="icon is-left">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </span>
+      </p>
+    </div>
+    <ul class="list">
+    {% for data in data %}
+    <li>
+    <p class="panel-block"><a class="x is-active" href="{{ data['link']}}">{{ data['title']}}</a><em>Date Added:({{data['date']}})</em></p>
+    </p>
+    </li>
+    {% endfor %}
+    </ul>
+    </div>
+  </nav>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="static/assets/js/list.min.js"></script>
+<script src="static/assets/js/script.js"></script>
+</body>
+</html>
