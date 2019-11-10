@@ -13,5 +13,7 @@
 
 ### Markdown Version
 [Bookmarks](bookmarks.md)
-* Note: This file is a little messy and most of my bookmarks are duplicated but hosted version is better and has fuzzy search functionality
 * Fuzzy search was implemented using `listjs`
+
+### Note
+This project has another [dev](https://github.com/mraza007/useful-bookmarks/tree/flask) branch that uses flask as backend server and bookmarks are stored in sheets and used an api.
