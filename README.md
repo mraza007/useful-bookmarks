@@ -11,3 +11,5 @@ This project is powered by flask. It uses [sheetdb](https://sheetdb.io/) that tu
 Its hosted on Netlify.
 
 If you would like the idea feel free to clone this and implement for your own bookmarks.
+
+[HOSTED USING HEROKU](https://bookmarks-flask.herokuapp.com/)
