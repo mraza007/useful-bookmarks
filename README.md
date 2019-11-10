@@ -4,14 +4,10 @@
 
 ## [Useful-Bookmarks](https://kind-babbage-78b799.netlify.com)
 
+This project is powered by flask. It uses [sheetdb](https://sheetdb.io/) that turns google sheets into an api.
 
-### Things to be Done
-* [x] Implement Search 
-* [x] Host it on Netlify
-* [ ] Categorize the bookmarks
+[Bookmarks are available here](https://docs.google.com/spreadsheets/d/1X1kQrQapLL5P2hLGcJdo7TA9XUjQErKWCwoAauRzAGk/edit?usp=sharing)
 
+Its hosted on Netlify.
 
-### Markdown Version
-[Bookmarks](bookmarks.md)
-* Note: This file is a little messy and most of my bookmarks are duplicated but hosted version is better and has fuzzy search functionality
-* Fuzzy search was implemented using `listjs`
+If you would like the idea feel free to clone this and implement for your own bookmarks.
