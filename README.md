@@ -6,9 +6,9 @@
 
 This project is powered by flask. It uses [sheetdb](https://sheetdb.io/) that turns google sheets into an api.
 
-[Bookmarks are available here](https://docs.google.com/spreadsheets/d/1X1kQrQapLL5P2hLGcJdo7TA9XUjQErKWCwoAauRzAGk/edit?usp=sharing)
+[Bookmarks GoogleSheet Link](https://docs.google.com/spreadsheets/d/1X1kQrQapLL5P2hLGcJdo7TA9XUjQErKWCwoAauRzAGk/edit?usp=sharing)
 
-Its hosted on Netlify.
+
 
 If you would like the idea feel free to clone this and implement for your own bookmarks.
 
