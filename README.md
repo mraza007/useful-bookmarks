@@ -2,7 +2,7 @@
 
 #### This repo is dedicated to list of useful bookmarks that I bookmarked when discovering something new or while learning programming
 
-## [Useful-Bookmarks](https://kind-babbage-78b799.netlify.com)
+## [Useful-Bookmarks (NETLIFY VERSION)](https://kind-babbage-78b799.netlify.com)
 
 
 ### Things to be Done
