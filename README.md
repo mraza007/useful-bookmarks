@@ -4,7 +4,7 @@
 
 ## [Useful-Bookmarks](https://kind-babbage-78b799.netlify.com)
 
-This project is powered by flask. It uses [sheetdb](https://sheetdb.io/) that turns google sheets into an api.
+This project is powered by flask. It uses [sheety](https://sheety.co/?ref=producthunt#response) that turns google sheets into an api.
 
 [Bookmarks GoogleSheet Link](https://docs.google.com/spreadsheets/d/1X1kQrQapLL5P2hLGcJdo7TA9XUjQErKWCwoAauRzAGk/edit?usp=sharing)
 
