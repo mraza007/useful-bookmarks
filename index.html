@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-<section class='hero is-dark'>
+<header class='hero is-dark'>
     <div class='hero-body'>
         <div class='container'>
             <h1 class='title'>
@@ -32,8 +32,8 @@
             </h2>
         </div>
     </div>
-</section>
-<div class="container">
+</header>
+<main class="container">
     <div id="bookmarks">
         <!-- search bar -->
         <div id="search-bar" class="columns">
@@ -66,26 +66,26 @@
                             <input id="link" class="input is-hovered" type="text" required>
                         </div>
                     </div>
-                    <div class="field">
+                    <section class="field">
                         <label class="label">Title</label>
                         <div class="control">
                             <input id="title" class="input is-hovered" type="text" required>
                         </div>
-                    </div>
-                    <div class="field">
+                    </section>
+                    <section class="field">
                         <label class="label">Tags</label>
                         <div class="control">
                             <input id="tags" class="input is-hovered" type="text" placeholder="C++, Python, OpenCV">
                         </div>
-                    </div>
-                    <div class="columns">
+                    </section>
+                    <section class="columns">
                         <div class="column">
                             <div class="button is-success is-fullwidth" onclick="saveBookmark()">Save</div>
                         </div>
                         <div class="column">
                             <div class="button is-danger is-fullwidth" onclick="closeModal()">Cancel</div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
             <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
@@ -100,7 +100,7 @@
             </div>
         </div>
     </div>
-</div>
+</main>
 <script src="list.min.js"></script>
 <script src="bookmarks.js"></script>
 <script src="script.js"></script>
